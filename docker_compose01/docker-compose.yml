@@ -4,6 +4,10 @@ version: '2'
 services:
     app:
         build: app
+    app1:
+        build: app1
+    app2:
+        build: app2
 
     proxy:
         build: proxy
